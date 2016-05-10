@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scaliable=no">
+    <script src="jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="order.js"></script>
+	<title>重邮微校</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--顶部-->
+<div id="top"></div>
+<div id="img"><img src="image/cover.png"></div>
+<!--功能——预约-->
+<div id="index">
+<div id="box">
+    <div id="box-top">
+    <p>请选择预约时间及老师</p>
+	<div id="state">
+		<span id="free"></span>可预约<br>
+		<span id="busy"></span>忙碌中
+	</div>
+	</div>
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tbody>
+			    <tr>
+				    <th>时间</th>
+				    <th>周一</th>
+				    <th>周二</th>
+				    <th>周三</th>
+				    <th>周四</th>
+				    <th>周五</th>
+				</tr>
+				<tr>
+					<th rowspan="2" class="header">10:00~
+					11:30</th>
+					<td class="td-1">陈民<br>(接受留学生)</td>
+					<td class="td-2">熊贤芳</td>
+					<td class="td-3">钟楠</td>
+					<td class="td-4">陆文颖</td>
+					<td class="td-5">谭静</td>
+				</tr>
+				<tr>
+					<td class="td-1">陈敏</td>
+					<td class="td-2">陈敏</td>
+					<td class="td-3">黄彦萍</td>
+					<td class="td-4">汤红棉</td>
+					<td class="td-5">罗玉华</td>
+				</tr>
+				<tr>
+					<th rowspan="2" class="header">15:00~
+					17:00</th>
+					<td class="td-1">朱卫嘉</td>
+					<td rowspan="2"  class="td-2">周春霞</td>
+					<td class="td-3">王小运</td>
+					<td class="td-4">黄小琴</td>
+					<td rowspan="2" class="td-5">罗玉华</td>
+				</tr>
+				<tr>
+					<td class="td-1">陈敏</td>
+					<td class="td-3">黄彦萍</td>
+					<td class="td-4">汤红棉</td>
+				</tr>
+				<tr>
+					<th rowspan="2" class="header">19:30~
+					21:30</th>
+					<td class="td-1">张汇泉</td>
+					<td class="td-2">陈瑞涵</td>
+					<td class="td-3">何雨桑</td>
+					<td class="td-4">高延春</td>
+					<td class="td-5">吴宗志</td>
+				</tr>
+				<tr>
+					<td class="td-1">陈敏</td>
+					<td class="td-2">陈敏</td>
+					<td class="td-3">黄彦萍</td>
+					<td class="td-4">汤红棉</td>
+					<td class="td-5">罗玉华</td>
+				</tr>
+			</tbody>
+		</table>
+	<div id="num">
+	    <p>心理预约电话 ：62461245  62468669</p>
+	</div>
+	<input type="submit" id="submit" value="下一步">
+</div>
+</div>
+<div id="selfInformation">
+	<div id="box">
+    <div id="checked">
+        <p id="information">当前已选择时间: </p>
+        <span id="change">修改</span>
+    </div>
+    <h3>请填写详细信息</h3>
+    <p>昵称</p>
+   	<input type="text" id="nickName">
+   	<p>学院</p>
+   	<input type="text" id="college">
+   	<p>联系方式</p>
+   	<input type="text" id="phone">
+	<input type="submit" value="提交" id="button">
+	<span id="error">请正确选择预约时间及老师并完整填写个人信息</span>
+	<span id="success">预约成功！</span>
+</div>
+</div>
+</body>
+</html>

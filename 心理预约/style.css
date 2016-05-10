@@ -1,0 +1,175 @@
+@media screen and (max-width:450px){
+	html{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 415px){
+	html{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 375px){
+	html{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 320px){
+	html{
+		font-size: 14px;
+	}
+}
+
+
+body,div,img,p,span,form,table,tbody,tr,th,td,button,h3,input,a{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-weight: normal;
+}
+div,p,a,h3,input{
+	font-family: "微软雅黑";
+}
+#top{
+	height: 1.5rem;
+	background-color: #000;
+}
+img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+#img img{
+	width: 23.5rem;
+}
+#line{
+	border-left: 1px solid #000;
+	height: 1.5rem;
+	padding-right: 1rem;
+}
+#box{
+	margin: 1rem 0.75rem;
+}
+#box-top{
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
+#box-top p{
+	font-size: 1rem;
+}
+#state{
+	font-size: 14px;
+}
+#state span{
+	height: 0.6rem;
+	width: 0.6rem;
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+#free{
+	background-color: #75b1e5;
+}
+#busy{
+	background-color: #d5d5d5;
+}
+th,td{
+	font-family: "宋体";
+	text-align: center;
+}
+th{
+	font-size: 14px;
+	color: #666;
+	width:3.6rem;
+	height: 2rem;
+}
+tr .header{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #666;
+	border: 1px solid #ddd;
+}
+td{
+	color: #75b1e5;
+	font-size: 12px;
+	width: 3.6rem;
+	height: 3rem;
+	border: 1px solid #ddd;
+}
+#num{
+	margin-top: 0.5rem;
+	color: #666;
+}
+table{
+	margin: 0 auto;
+}
+#submit{
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	height: 1.85rem;
+	width: 5.5rem;
+	border: 1px solid #d4d4d4;
+	border-radius: 0.2rem;
+	background: url(image/bgr.png);
+	color: #ffac40;
+	float: right;
+	font-size: 13px;
+}
+#checked{
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+	color: #666;
+	font-size: 16px;
+}
+#change{
+	color: #2da1f2;
+}
+form{
+	margin-top: 0.5rem;
+	font-size: 14px;
+	color: #333;
+}
+input{
+	height: 2rem;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	background: #f2f2f2;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}
+#button{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 2.5rem;
+	font-size: 20px;
+	color: #ffac40;
+	background: url(image/bgr.png);
+}
+.td-checked{
+	color: #000;
+	border-top: 1px solid #4395db;
+}
+.th-checked{
+	color:#4395db;
+}
+.checked{
+	background-color: #f9f9f9;
+}
+#selfInformation{
+	display: none;
+}
+#error{
+	display: none;
+	color: red;
+	text-align: center;
+}
+#success{
+	display: none;
+	text-align: center;
+	color: green;
+}
