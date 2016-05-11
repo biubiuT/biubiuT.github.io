@@ -6,6 +6,33 @@ $(document).ready(function(){
 		$(this).addClass("expecial");
 	})
 
+    //点击登录出现登录框
+    $('#login').bind('click',function(){
+        $('#mask').css("display","block");
+        $('#signInBox').css("display","block");
+        $(document.body).css({"overflow-x":"hidden",
+                              "overflow-y":"hidden"})
+    })
+    //点击“x”按键，退出登录
+    $('#signOut').bind('click',function(){
+        $('#mask').css("display","none");
+        $('#signInBox').css("display","none");
+        $(document.body).css({"overflow-x":"auto",
+                              "overflow-y":"auto"})
+    })
+    //用户点击登录
+    $('#signIn').bind('click',function(){
+        $.ajax({
+            url:"",
+            type:"POST",
+            dataType:"json",
+            success:function(){
+                //........
+            }
+        })
+    })
+
+
 	//入驻按钮滑动切换渐变色
 	$("#join").hover(function(){
 		$(this).css("background","url(../image/joinbtn2.png)");
