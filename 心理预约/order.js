@@ -31,11 +31,16 @@ $(document).ready(function(){
 	})
 
 	//向后台获取已预约的时间段的时间、星期、老师姓名，改变样式
-	//$.getJSON('',function(data){//获取已预约的时间
-		//$.each(data,function(index,comment){//遍历获取的数据，并判断该数据所处时间段，为其添加样式
-			$time = '10:00~11:30'//comment['time'];
-			$name = '罗玉华'//comment['name'];
-			$week = '周五'//comment['week'];
+	$.ajax({
+		type:"GET",
+		url:"",
+		dataType:"json",
+		success:function(data){
+			$.each(data,function(commentIndex,comment){//遍历获取的数据，并判断该数据所处时间段，为其添加样式
+				$time = comment['time'];
+				$name = comment['name'];
+				$week = comment['week'];
+
             if ($time == '10:00~11:30') {
 		        if ($week == '周一') {
 			        if ($name == '陈敏') {
@@ -152,8 +157,9 @@ $(document).ready(function(){
 			        }
 		        }
 	        }
-        //})
-	//})	
+        })
+	}
+})	
 
 	//提交给后台选择的信息及个人信息
 	$('#button').bind('touchstart',function(){
@@ -174,7 +180,7 @@ $(document).ready(function(){
 					nickName:$('#nickName').val(),
 					college:$('#college').val(),
 					phone:$('#phone').val()},
-				success:function(){
+				    success:function(){
 					$('#success').css('display','block');
 				}
 

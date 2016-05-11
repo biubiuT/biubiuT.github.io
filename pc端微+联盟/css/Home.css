@@ -1,0 +1,250 @@
+div,li,span,ul,img,nav,body,table,input,a,p{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-decoration: none;
+}
+#top{
+	height: 50px;
+	background: url(../image/topcolor.png);
+	min-width: 1200px;
+}
+#top img{
+	margin-left: 200px;
+	margin-bottom: 15px;
+}
+#top span{
+	position: relative;
+	top: -20px;
+	font-size: 18px;
+	color: #000;
+}
+#top nav{
+	float: right;
+	height: 50px;
+	margin-right: 300px;	
+}
+#top nav ul li{
+	display: inline-block;
+	list-style: none;
+	height: 50px;
+}
+#top nav ul li a{
+	height: 50px;
+	margin-left: 20px;
+	line-height: 48px;
+	color: #000;
+	text-align: center;
+}
+#top nav ul li img{
+	display: inline-block;
+	margin: 0 0 0 20px;
+	vertical-align: middle;
+}
+#top .expecial{
+	display: inline-block;
+	list-style: none;
+	height: 47px;
+	margin-left: 20px;
+	line-height: 45px;
+	border-bottom: 3px solid #079bf8;
+}
+#box_1{
+	height: 380px;
+	background-color: #e5f1f9;
+	min-width: 1200px;
+}
+#box_1_left{
+	display: inline-block;
+	margin-left:200px;
+	padding-top: 100px;
+}
+#box_1_left #design{
+	font-size: 35px;
+	color: #00aeff;
+	font-weight: bold;
+}
+#box_1_left p{
+	color: #89a6ba;
+	font-family: "宋体";
+}
+#box_1_left #join{
+	display: inline-block;
+	margin-top: 20px;
+	width: 230px;
+	height: 56px;
+	background: url(../image/joinbtn.png);
+	border-radius: 50px;
+}
+#box_1_left #join span{
+	display: inline-block;
+	font-size: 30px;
+	color:#fff;
+	margin: 8px 0 0 25px;
+}
+#box_1_left #join img{
+	vertical-align: middle;
+	margin: 0 0 15px 20px;
+}
+#box_1_left ul{
+	margin-top: 15px;
+}
+#box_1_left ul li{
+	color: #009cfe;
+	font-family: "宋体";
+	margin-top: 5px;
+}
+#box_1_right{
+	position: absolute;
+	width: 422px;
+	overflow: hidden;
+	z-index: 1;
+	top: 100px;
+	left: 600px;
+}
+#autoplay{
+	left: -422px;
+	width: 2110px;
+	position: relative;
+	z-index: 1;
+	height: 260px;
+}
+#autoplay img{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+#box_1_right ul{
+	margin-left: 245px;
+	padding-top: 10px;
+}
+#box_1_right ul li{
+	margin-left: 10px;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid #40b6ff;
+	cursor: pointer;
+}
+#box_1_right .checked{
+	background-color: #40b6ff;
+	border: 1px solid #fff;
+}
+#img_left,#img_right{
+	position: absolute;
+	z-index: 100;
+	top: 220px;
+	cursor: pointer;
+}
+#img_left{
+	left: 570px;
+}
+#img_right{
+	left: 1150px;
+}
+#box_2{
+	height: 120px;
+	background-color: #00aeff;
+	min-width: 1200px;
+}
+#box_2_left{
+	display: inline-block;
+	width: 600px;
+	margin-left: 200px;
+	color: #fff;
+}
+#box_2_right{
+	display: inline-block;
+	margin-left: 150px;
+}
+#box_2_right img{
+	vertical-align: middle;
+	margin-top: -50px;
+}
+#box_2_left h3{
+	margin: 10px 0 5px 0;
+	padding: 0;
+}
+#box_3{
+	background-color: #f4f4f4;
+}
+#box_3_body{
+	width: 1000px;
+	margin: 0 200px;
+	background-color: #fff;
+}
+#box_3_body h3{
+	margin: 0 0 0 20px;
+	padding-top: 10px;
+}
+#box_3_left{
+	display: inline-block;
+}
+
+#box_3_left ul{
+	margin-top: 10px;
+}
+#box_3_left ul li{
+	list-style-type: none;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-bottom: 1px dashed #ddd;
+}
+#box_3_left ul li p{
+	display: inline-block;
+}
+#box_3_left ul li .time{
+	float: right;
+}
+#box_3_right{
+	float: right;
+}
+#box_3_right .box_3_right_img{
+	display: inline-block;
+	margin: 20px 10px 0 10px;
+}
+#box_3_bottom{
+	margin-top: 20px;
+	height: 310px;
+}
+#box_3_bottom .box_3_bottom{
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#box_3_bottom .box_3_bottom img{
+	margin: 10px;
+}
+#box_3_bottom .box_3_bottom h3{
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#box_3_bottom .box_3_bottom p{
+	margin: 5px 0 20px 10px;
+	padding: 0;
+}
+footer{
+	height: 120px;
+	background-color: #666;
+}
+#footer{
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 500px;
+}
+#footer p{
+	text-align: center;
+	color: #dadedd;
+	font-size: 16px;
+	margin-top: 10px;
+}

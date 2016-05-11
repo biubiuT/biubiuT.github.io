@@ -1,0 +1,114 @@
+div,li,span,ul,img,nav,body,table,input{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+body{
+	text-align: center;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	height: 48px;
+	margin-left: 30px;
+	line-height: 48px;
+}
+.expecial{
+	display: inline-block;
+	list-style: none;
+	height: 45px;
+	margin-left: 30px;
+	line-height: 45px;
+	border-bottom: 3px solid #079bf8;
+}
+a{
+	text-decoration: none;
+	color: #000
+}
+#top{
+	height: 48px;
+	border: 1px solid #dedede;
+	min-width: 1200px;
+}
+#topLeft{
+	display: inline-block;
+	height: 48px;
+	line-height: 48px;
+	background: url(../image/wei+.png) left center no-repeat;
+}
+#topLeft span{
+	padding-left: 60px;
+	font-size: 16px
+}
+nav{
+	float: right;
+	height: 48px;
+	margin-right: 400px;	
+}
+
+#box{
+	background-color: #f0f0f0;
+	height: 566px;
+}
+#center{
+	background-color: #fff;
+	position: relative;
+	top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 546px;
+	min-width: 900px;
+}
+
+#center img{
+	margin:30px auto 0;
+}
+
+#center #step p{
+	color: #ddd;
+	display: inline-block;
+	margin: 0 65px 20px;
+	padding-right: 35px; 
+}
+#center #step #step_3{
+	color: #079bf8;
+}
+
+#bottom{
+	height: 50px;
+	background-color: #009dff;
+}
+#finally{
+	height: 50px;
+	margin: 0 auto;
+}
+#finally p{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 14px;
+	margin:0 30px;
+}
+#center span{
+	display: inline-block;
+	font-weight: bold;
+	color: #7ec92c;
+	margin-top: 60px;
+	font-size: 15px;
+}
+#center #enter{
+	margin-top: 20px;
+}
+#send{
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	height: 30px;
+	width: 140px;
+	border-radius: 3px;
+	background-color: #7bc82b;
+	border: 1px solid #77c52a;
+	cursor: pointer;
+}
