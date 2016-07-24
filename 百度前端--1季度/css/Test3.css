@@ -1,0 +1,57 @@
+body,div,p,img,span{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 600px;
+}
+.box{
+	margin: 20px 19px 0;
+	padding: 20px;
+	background-color: #eee;
+	width: auto;
+	height: auto;
+	border: 1px solid #999;
+}
+.box:after{
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.photo{
+	padding: 20px 0px 20px 19px;
+	float: left;
+	left: 0;
+	width: 179px;
+	height: auto;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.photo img{
+	float: left;
+}
+.photo span{
+	margin-left: 20px;
+}
+.introduce{
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+	width: auto;
+	background-color: #fff;
+	border: 1px solid #999;
+}
+.every{
+	float: right;
+	right: 0;
+	padding:0 19px 20px;
+	background-color: #fff;
+	width: 80px;
+	border: 1px solid #999;
+}
+.every img{
+	float: left;
+	margin-top: 20px;
+}

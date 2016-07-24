@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test12</title>
+</head>
+<body>
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	span{
+		background-color: #fff;
+		display: inline-block;
+		color:yellow;
+		width: auto;
+		height: auto;
+		border: 1px solid black;
+		min-width: 5px;
+		margin: 2px;
+	}
+	#root_0{
+		margin: 10px;
+		border: 1px solid green;
+		padding: 20px;
+	}
+	.root_1{
+		border: 1px solid blue;
+		padding: 10px;
+	}
+	.root_2{
+		border: 1px solid red;
+		padding: 10px;
+		min-width: 20px;
+	}
+	.root_3{
+		border: 1px solid orange;
+		padding: 10px;
+		min-width: 20px;
+		min-height: 20px;
+		line-height: 20px;
+	}
+	.root_4{
+		border: 1px solid gray;
+		padding: 2px;
+		min-width: 15px;
+		min-height: 15px;
+		line-height: 15px;
+	}
+</style>
+<span id="root_0">if
+	<span class="root_1">you
+		<span class="root_2">oh
+			<span class="root_3">yes</span>
+		</span>
+		<span class="root_2">my
+			<span class="root_3">name</span>
+			<span class="root_3">is</span>
+		</span>
+	</span>
+	<span class="root_1">don't
+		<span class="root_2">know
+			<span class="root_3">every</span>
+			<span class="root_3">night</span>
+			<span class="root_3">in</span>
+		</span>
+	</span>
+	<span class="root_1">my
+		<span class="root_2">dream</span>
+	</span>
+</span>
+<button id="forIn">遍历</button>
+<input type="text" id="input" placeholder="请输入查询内容">
+<button id="search">查询</button>
+<button id="delete">删除</button>
+<input type="text" id="addInput">
+<button id="add">添加</button>
+<script type="text/javascript" src="JS/Test12.js"></script>
+</body>
+</html>

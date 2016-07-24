@@ -1,0 +1,35 @@
+body,div,span{
+	margin: 0;
+	position: 0;
+}
+.box{
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	background-color: #ccc;
+	overflow: hidden;
+}
+.left{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50px;
+	position: relative;
+	left: -50px;
+	top: -50px;
+}
+.right{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50px;
+	position: relative;
+	left: 250px;
+	top: 150px;
+}
