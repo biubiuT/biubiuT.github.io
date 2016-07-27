@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test19</title>
+</head>
+<body>
+<style type="text/css">
+	*{
+		font-family: "微软雅黑";
+	}
+	input{
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+	.campus{
+		display: none;
+		position: relative;
+		left: 100px;
+		top: -21px;
+	}
+	#outCampus{
+		display: none;
+	}
+</style>
+<input type="radio" name="radio" checked="checked" class="radio"><label>在校生</label>
+<input type="radio" name="radio" class="radio"><label>非在校生</label>
+<br>
+<div id="inCampus">
+	<label>学校</label>
+	<select>
+		<option>北京</option>
+		<option selected="selected">重庆</option>
+		<option>上海</option>
+	</select>
+	<select class="campus">
+		<option>清华大学</option>
+		<option>北京大学</option>
+		<option>北京邮电大学</option>
+	</select>
+	<select class="campus">
+		<option>重庆大学</option>
+		<option>重庆邮电大学</option>
+		<option>西南大学</option>
+	</select>
+	<select class="campus">
+		<option>上海交通大学</option>
+		<option>复旦大学</option>
+		<option>同济大学</option>
+	</select>
+</div>
+<div id="outCampus">
+	<label>就业单位</label><input type="text">
+</div>
+<script type="text/javascript" src="JS/Test19.js"></script>
+</body>
+</html>
