@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Test6</title>
+</head>
+<body>
+<style type="text/css">
+	p,table,caption,td,tr,span{
+		margin: 0;
+		padding: 0;
+	}
+	span,p{
+		display: inline-block;
+	}
+	span:first-child{
+		display: inline-block;
+		width: 0;
+    	height: 0;
+   		border-top: 5px solid transparent;
+    	border-bottom: 5px solid transparent;
+    	border-right: 10px solid #fff;
+    	margin-right: 50px;
+    	cursor: pointer;
+	}
+	span:last-child{
+		display: inline-block;
+		width: 0;
+    	height: 0;
+   		border-top: 5px solid transparent;
+    	border-bottom: 5px solid transparent;
+    	border-left: 10px solid #fff;
+    	margin-left: 50px;
+    	cursor: pointer;
+	}
+	table{
+		font-size: 14px;
+		font-family: "微软雅黑";
+	}
+	table{
+		border: 1px solid #ccc;
+		padding: 10px;
+		display: none;
+	}
+	caption{
+		background-color: red;
+		color: #fff;
+		height: 30px;
+		line-height: 30px;
+	}
+	td{
+		height: 25px;
+		width: 25px;
+		text-align: center;
+		border:1px solid #fff;
+		cursor: pointer;
+	}
+	td:first-child,th:first-child{
+		color: red;
+	}
+	td:last-child,th:last-child{
+		color:red;
+	}
+	th{
+		font-weight: normal;
+	}
+	input{
+		margin-top: 10px;
+		display: block;
+		width: 205px;
+	}
+	label{
+		margin-right: 20px;
+	}
+</style>
+<input type="text" placeholder="选择日期">
+<table>
+	<tbody>
+		<caption><span></span><p>xx年xx月</p><span></span></caption>
+		<tr>
+			<th>日</th>
+			<th>一</th>
+			<th>二</th>
+			<th>三</th>
+			<th>四</th>
+			<th>五</th>
+			<th>六</th>
+		</tr>
+	</tbody>
+</table>
+<button>选择时间段</button>
+<button>确认</button><button>取消</button>
+<script type="text/javascript" src="JS/Test6.js"></script>
+</body>
+</html>
